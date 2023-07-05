@@ -1,0 +1,186 @@
+.app{
+    height: 2000px;
+    width: 100%;
+}
+
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    color: #f9fafb;
+}
+
+.top .top1{
+    height: 100%;
+    width: 20%;
+    background-color: orangered;
+}
+
+.top .top2{
+    height: 100%;
+    width: 60%;
+    background-color: orangered;
+    display: flex;
+}
+
+.top2 .top3{
+    height: 100%;
+    width: 30%;
+    background-color: orangered;
+    display: flex;
+}
+
+.top2 .top4{
+    height: 100%;
+    width: 30%;
+    background-color: orangered;
+    display: flex;
+}
+
+.top2 .top5{
+    height: 100%;
+    width: 40%;
+    background-color: orangered;
+    
+    display: flex;
+}
+
+.top2 .top3 .header-top-left {
+    padding-left: 2%;
+    display: flex;
+    list-style:none;
+}
+
+.top .nav-list{
+    padding: 0 5px 0 5px;
+    
+}
+
+.top .line1{
+    background-color: #f9fafb;
+    width: 1px;
+    height: 1rem;
+}
+
+.top2 .top5 .header-top-right {
+    
+    display: flex;
+    list-style:none;
+}
+
+.app .mid{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0,.09);
+    height: 6.25rem;
+}
+
+.app .mid .mid1{
+    height: 100%;
+    width: 20%;
+    
+}
+
+.app .mid .mid2{
+    display: flex;
+    height: 100%;
+    width: 60%;
+   
+    
+}
+
+.app .mid .mid3{
+    height: 100%;
+    width: 20%;
+   
+}
+
+.mid2 .logo-shopee{
+    height: 100%;
+    width: 30%;
+    
+}
+
+.mid2 .mid5 {
+    height: 100%;
+    width: 20%;
+   
+}
+
+.mid2 .search{
+    height: 100%;
+    width: 50%;
+ 
+}
+
+
+
+.logo-shopee .icon img {
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+.text-sp {
+    font-size: 30px;
+    color: orangered;
+    padding-left: 5px;
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    border-left: 1px solid orangered;
+    margin-left: 11px;
+    margin-top: 37px;
+    height: 30px;
+  
+}
+
+.giohang{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: orangered;
+    padding-left: 11px;
+    padding-top: 42px;
+}
+
+.search-icon {
+    height: 38px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orangered ;
+   
+   
+}
+
+.shopee-searchbar{
+    border: 2px solid orangered;
+    --focus-indicator-spacing: 3px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 27px;
+}
+
+.search-main{
+    display: flex;
+    flex: 1;
+}
+
+.shopee-searchbar input {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 .625rem;
+    position: relative;
+}
+
