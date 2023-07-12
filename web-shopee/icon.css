@@ -260,6 +260,7 @@
 .check-all{
     padding-left: 20px;
     padding-right: 15px;
+    
 }
 
 .check-all input{
@@ -348,7 +349,7 @@ a{
 }
 
 .gh-shop1{
-    height: 390px;
+    height: 420px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
     border-radius: .125rem;
     background: #fff;
@@ -358,7 +359,8 @@ a{
 .info-shop1{
     border: 1px solid rgba(0,0,0,.09);
     border-radius: 2px;
-    margin: 22px 20px;
+    margin: 23px 20px;
+    height: 200px;
 }
 
 .them{
@@ -399,12 +401,12 @@ a{
 }
 
 .VP{
-    margin-top: 0;
+    height: 130px;
     padding: 16px 0;
     text-decoration: none;
     color: rgba(0,0,0,.87);
-    display: block;
     border: 1px solid black;
+ 
 }
 
 
@@ -417,10 +419,9 @@ a{
 
 
 .main-sp{
-    width: 35%;
-    height: 100px;
+    width: 27%;
+    height: 128px;
     border: 1px solid black;
-    display: flex;
  
 }
 
@@ -438,7 +439,7 @@ a{
     border-top: 1px solid rgba(0,0,0,.09);
 }
 
-.L-deCr {
+.bip {
     color: #ee4d2d;
     fill: currentColor;
     width: 1.3125rem;
@@ -448,7 +449,7 @@ a{
 
 
 
-.MS9XQD {
+.dark {
     color: #00bfa5;
     stroke: currentColor;
     fill: currentColor;
@@ -459,11 +460,10 @@ a{
 .anh-sp{
     width: 100%;
     height: 90px;
-    margin-top: 4px;
     display: flex;
 }
 
-.anh-sp img{
+.hoho{
     height: 90px;
     width: 90px;
    
@@ -476,3 +476,57 @@ a{
 }
 
 
+.g2pfd0 {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ee4d2d;
+    display: inline-block;
+}
+
+
+.kobt {
+    vertical-align: bottom;
+    margin-right: 6px;
+    height: 14px;
+    width: auto;
+}
+
+.thoithoi {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #ee4d2d;
+}
+
+.link-ma{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    display: block;
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 18px;
+ 
+}
+
+.hocde {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.buonvl {
+    width: 17px;
+    height: 13px;
+}
+
+.free {
+    font-size: 13px;
+    color: #252525;
+    margin-left: 6px;
+}
