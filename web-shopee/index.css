@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 * {
   margin: 0;
@@ -40,7 +42,6 @@ button {
     top: 0;
     left: 0;
     z-index: 100;
-    
 }
 
 .header-mid {
@@ -55,7 +56,6 @@ button {
     color: #fff;
     position: relative;
     font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header-top-left {
@@ -70,14 +70,15 @@ button {
 }
 .header-top a{
   color: #ffffff;
+  text-decoration: none;
+
 }
 .navbar-item-user a{
+  text-decoration: none;
   color:#000000;
 }
 .header-top-left .nav-list{
-
   padding-right: 5px;
-  
 }
 .header-top-left .nav-list2{
   padding-left: 5px;
@@ -434,20 +435,16 @@ button {
   position: relative;
   flex-direction: column;
   background-color: #f8f9f9;
-
   height: 90%;
 }
-.container-item1 {
-    
+.container-item1 {  
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
     height: 7.5%;
-    margin-top: 1.5%;
+    margin-top: 150px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
   }
-  
   .container-item1 .item1-right {
     display: flex;
     flex-direction: column;
@@ -523,15 +520,12 @@ button {
     padding-top: 10%;
     background: url('/images/ing-qc-6.jfif') top center / cover no-repeat;
   }
-          a {
-            text-decoration: none;
-          }
+
           img {
             display: block;
             max-width: 100%;
           }
           body {
-            font-family: "Poppins", sans-serif;
             font-size: 16px;
             line-height: 1;
             padding: 25px;
@@ -545,7 +539,7 @@ button {
           .slider-prev {
             position: absolute;
             top: 50%;
-            transform: translateY(-50%);
+            /* transform: translateY(-50%); */
             width: 30px;
             height: 50px;
             display: flex;
@@ -580,7 +574,7 @@ button {
             height: 15px;
             border-radius: 100rem;
             background-color: #999;
-            cursor: pointer;
+            /* cursor: pointer; */
             transition: background-color 0.25s linear;
           }
           .slider-dots li.active {
@@ -602,12 +596,62 @@ button {
             height: 100%;
             width: 100%;
             flex: 1 0 100%;
-            user-select: none;
           }
           .slider-item img {
             width: 100%;
             height: 45%;
             object-fit: cover;
+          }
+          .g1-container{   
+            display: flex;
+            padding-top: 0px;
+            height: 150px;
+            margin-left: 10%;
+            margin-right: 10%;
+           background-color: #f53f2d;
+          }
+          .g1-item { 
+            flex: 50%;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: 1fr;
+            background-color: #ffffff;
+            gap: 5px;
+            width: 100%;
+
+          }
+          .g1-item img{
+            height: 50px;
+            width: 50px;
+            margin-bottom: 20px;
+            }
+
+          .g1-item1{
+            flex-direction: column;
+            display: flex;
+            height: 90%;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            position: relative;  
+            transition: 0.3s;
+      
+          }
+
+        .g1-item1:hover{
+          transform: scale(1.025);
+        }
+          .g1-item1 p{
+            font-size: 14px;
+            height: 40px;
+            width: 100%;;
+            padding-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+            font-weight: 400;
+            bottom: 0;
           }
   .container-item2{
     flex-grow: 0.01;
@@ -620,8 +664,6 @@ button {
     background-color:#fa5230 ;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     height: 10%;
-    /* width: 100%; */
-
   }
   .grid-0{   
     display: flex;
@@ -638,11 +680,9 @@ button {
     grid-template-rows: 1fr;
     margin-right: 5px;
     gap: 5px;
-
   }
   .grid-2 {
     flex: 50%;
-    /* background-color: #fa5230; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;  
@@ -669,10 +709,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-        margin-top: 7px;
-
-
-
+   margin-top: 7px;
   }
   .grid-item2 {
     background-color: #ffffff;
@@ -689,7 +726,7 @@ button {
     margin: auto;
   }
   .g-text2 p{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 7px;
@@ -713,7 +750,6 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 7px;
-
 }
   .grid-item4 {
     background-color: #ffffff;
@@ -777,7 +813,6 @@ button {
   }
 .khongbietdattengi{
   height: 50px;
-  /* background-color: #8f1818; */
   display: flex;
   align-items: center;
 }
@@ -798,7 +833,6 @@ font-size: 20px;
 }
 .khongbiet2 {
 flex:49%;
-/* background-color: #ffffff; */
 color: #fff;
 margin-left: 5px;
 }
@@ -844,7 +878,11 @@ margin-left: 5px;
   grid-template-columns: repeat(10, 1fr); 
   grid-gap: 1px; 
 }
+.grid-container3 a{
+  color: #000000;
+  text-decoration: none;
 
+}
 .g3-item {
   height: 100%;
   background-color: #ffffff;
@@ -950,17 +988,15 @@ margin-top: 7px;
 
 .container4{
   background-color:#f8f9f9;
-  height: 7.5%;
+  height: 10.5%;
   margin-top: 1.5%;
   margin-left: 10%;
   margin-right: 10%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
 }
 .g4-text-fl{
   display: flex;
   height: 20%;
-  background-color: #9f918f;
   justify-content: space-between;
 
   padding-left: 15px;
@@ -972,7 +1008,6 @@ margin-top: 7px;
 .g4-text-baner .icon-fl{ 
   width: 130px;
   height: 45%;
-  background-color: #2e3b47;
   margin:auto;
   background: url('/images/icon-flast-sale.png') top center / cover no-repeat;
 }
@@ -1021,18 +1056,17 @@ margin-top: 7px;
   position: relative;
   height: 90%;
   width: 99%;
-
 }
 .g4-item-1{
   width: 90%;
-  height: 80%;
+  height: 90%;
   margin: auto;
   background: url('/images/g4-item1.png') top center / cover no-repeat;
 
 }
 .g4-item-1{
   width: 90%;
-  height: 80%;
+  height: 90%;
   margin: auto;
   background: url('/images/g4-item1.png') top center / cover no-repeat;
 
@@ -1114,23 +1148,18 @@ background-color: #cebbb7;
   align-items: center;
 }
 .container5{
-  margin-top:2% ;
+  margin-top:3% ;
   margin-left: 10%;
   margin-right: 10%;
-  height: 3%;
+  height: 4%;
   background-color: #ffffff;
   display: flex;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
-
 }
 .g5-item{
-  margin: auto;
-  height: 94%;
+  height: 99%;
   width: 99%;
-  background-color: #62190d;
-  background: url('/images/sg-50009109-dcd4362d7425112b0838f0214ac1ea7c\ \(1\).png') top center / cover no-repeat;
-
+  background: url('/images/g5-banner.png') top center / cover no-repeat;
 }
 .container6{
   margin-top: 1.5%;
@@ -1219,7 +1248,7 @@ width: 20px;
 }
 
 .slider-images {
-  width: 400%; 
+  width: 500%; 
   height: 100%;
   position: absolute;
   left: 0;
@@ -1249,7 +1278,7 @@ width: 20px;
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-         position: absolute;
+        position: absolute;
         top: 50%;
         transform: translateY(-50%);
         width: 99%;
@@ -1298,7 +1327,10 @@ width: 20px;
   height: 285px;
   z-index: 1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-
+  transition: 0.3s;
+}
+.g8-item:hover{
+  transform: scale(1.015);
 }
 .g8-item:hover .g8-item-border{
   display: block;
@@ -1375,7 +1407,7 @@ width: 20px;
   top: 0;
   left: 0;
   z-index: 5;
-  background: url('/images/icon-lot.png') top center / cover no-repeat;
+  background: url('/images/g8-iconlot2.png') top center / cover no-repeat;
 }
  .sale{
   display:flex;
@@ -1469,16 +1501,16 @@ flex-direction: column;
       font-size: 14px;
     }
 .container9{
-  margin-top: 10px;
+  margin-top: 80px;
   height: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .my-button{
-height: 30px;
-width: 35%;
-background-color: #fff;
+  height: 30px;
+  width: 35%;
+  background-color: #fff;
   border-radius: 5px;
   border: #fff;
   border-width: 10px;
