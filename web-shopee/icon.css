@@ -10,7 +10,10 @@
     background-color: orangered;
     display: flex;
     color: #f9fafb;
+   
 }
+
+
 
 .top .top1{
     height: 100%;
@@ -270,12 +273,12 @@
 
 .sanpham {
     color: rgba(0,0,0,.8);
-    width: 46%;
+    width: 38%;
     
 }
 
 .dongia {
-    width: 16%;
+    width: 19%;
     text-align: center;
 }
 
@@ -353,7 +356,7 @@ a{
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
     border-radius: .125rem;
     background: #fff;
-    margin-bottom: .9375rem;
+    margin-bottom: 20px;
 }
 
 .info-shop1{
@@ -422,17 +425,18 @@ a{
     width: 27%;
     height: 128px;
     border: 1px solid black;
+    margin-right: 10px;
  
 }
 
-.dT5{
+.voucher{
     display: flex;
     align-items: center;
     padding: 1rem 0 1rem 2.5rem;
     border-top: 1px solid rgba(0,0,0,.09);
 }
 
-.AYA{
+.AY{
     display: flex;
     align-items: center;
     padding: 1.25rem 0 1.25rem 2.5rem;
@@ -501,6 +505,105 @@ a{
     color: #ee4d2d;
 }
 
+.size{
+
+    color: rgba(0,0,0,.54);
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.kuku{
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+  
+}
+
+.but{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 0;
+    border-top: 5px solid gray;
+    background: none;
+    margin-left: 10px;
+    padding: 0;
+    
+
+}
+
+.price{
+    width: 16%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.meme{
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 8px;
+}
+
+.quantities{
+    border: 1px solid black;
+    width: 14%;
+    justify-content: center;
+    display: flex;
+}
+
+.but-down{
+    border: 1px solid rgba(0,0,0,.09);
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.icon-re{
+    width: 10px;
+    height: 10px;
+}
+
+.solo{
+    height: 26px;
+    width: 40px;
+    cursor: text;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.09);
+    box-sizing: border-box;
+}
+
+.but-up{
+    border: 1px solid rgba(0,0,0,.09);
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    background: none;
+}
+
+.icon-up{
+    width: 10px;
+    height: 10px;
+}
+
+.price-now{
+    width: 9%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    color: #ee4d2d;
+}
+
+.change{
+    width: 15%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    color: #ee4d2d;
+}
+
 .link-ma{
     text-decoration: none;
     color: rgba(0,0,0,.87);
@@ -530,3 +633,83 @@ a{
     color: #252525;
     margin-left: 6px;
 }
+
+.het-tien{
+    margin: 0 0 0 15px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.haizz{
+    margin: 0 0 0 25px;
+
+}
+
+.reduce-ship{
+    margin: 0 0 0 15px;
+}
+
+.learn-more{
+    margin-left: 20px;
+}
+
+.gh-shop2{
+    height: 420px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: 0.125rem;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.name-shop2{
+    display: flex;
+    height: 3.75rem;
+    align-items: center;
+    font-size: 14px;
+    background-color: #fff;
+    color: #888;
+    padding: 0 20px;
+}
+
+.bruh-bruh{
+    color: rgba(0,0,0,.87);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.like{
+    padding-top: 3px;
+}
+
+.lmao-lmao{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info-shop2{
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 2px;
+    margin: 23px 20px;
+    height: 150px;
+    
+}
+
+.hehe{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.main-sp2{
+    width: 27%;
+    height: 115px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+
