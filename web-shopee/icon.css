@@ -680,8 +680,16 @@ a{
     text-decoration: none;
 }
 
-.like{
-    padding-top: 3px;
+.a{
+    border-radius: 3px;
+    background-color: orangered;
+    color: white;
+}
+
+.b{
+    margin: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;
 }
 
 .lmao-lmao{
