@@ -2,6 +2,7 @@
     height: 2000px;
     width: 100%;
     border: 1px solid black;
+    
 }
 
 .top{
@@ -10,9 +11,9 @@
     background-color: orangered;
     display: flex;
     color: #f9fafb;
+    
    
 }
-
 
 
 .top .top1{
@@ -202,24 +203,22 @@
 
 .container{
     background-color: #eee;
-    
+    position:none;
     width: 100%;
     height: 100%;
     display: flex;
-
+  
 }
 
 .con-left{
     height: 100%;
     width: 18%;
-    
     background-color: #eee;
 }
 
 .con-right{
     height: 100%;
     width: 18%;
-   
     background-color: #eee;
 }
 
@@ -360,7 +359,7 @@ a{
 }
 
 .info-shop1{
-    border: 1px solid rgba(0,0,0,.09);
+   
     border-radius: 2px;
     margin: 23px 20px;
     height: 200px;
@@ -373,7 +372,7 @@ a{
     font-size: 14px;
    
     color: rgba(0,0,0,.87);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, .09);
     
 }
 
@@ -408,7 +407,7 @@ a{
     padding: 16px 0;
     text-decoration: none;
     color: rgba(0,0,0,.87);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, .09);
  
 }
 
@@ -424,7 +423,6 @@ a{
 .main-sp{
     width: 27%;
     height: 128px;
-    border: 1px solid black;
     margin-right: 10px;
  
 }
@@ -476,17 +474,10 @@ a{
 .ao-thun{
     height: 100%;
     width: 100%;
-    border: 1px solid black;
 }
 
 
-.g2pfd0 {
-    margin-top: 12px;
-    font-weight: 500;
-    font-size: 12px;
-    color: #ee4d2d;
-    display: inline-block;
-}
+
 
 
 .kobt {
@@ -510,7 +501,6 @@ a{
     color: rgba(0,0,0,.54);
     display: flex;
     margin-right: 10px;
-    border: 1px solid black;
 }
 
 .kuku{
@@ -534,7 +524,6 @@ a{
 
 .price{
     width: 16%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -546,7 +535,6 @@ a{
 }
 
 .quantities{
-    border: 1px solid black;
     width: 14%;
     justify-content: center;
     display: flex;
@@ -590,7 +578,6 @@ a{
 
 .price-now{
     width: 9%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     color: #ee4d2d;
@@ -598,7 +585,7 @@ a{
 
 .change{
     width: 15%;
-    border: 1px solid black;
+
     display: flex;
     justify-content: center;
     color: #ee4d2d;
@@ -618,9 +605,15 @@ a{
 }
 
 .hocde {
-    margin-top: 28px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
+}
+
+.ga-lam {
+    height: 19px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .buonvl {
@@ -644,7 +637,8 @@ a{
 
 .haizz{
     margin: 0 0 0 25px;
-
+    cursor: pointer;
+    color: blue;
 }
 
 .reduce-ship{
@@ -653,14 +647,17 @@ a{
 
 .learn-more{
     margin-left: 20px;
+    cursor: pointer;
+    color: blue;
 }
 
 .gh-shop2{
-    height: 420px;
+    height: 330px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
     border-radius: 0.125rem;
     background: #fff;
     margin-bottom: 20px;
+    
 }
 
 .name-shop2{
@@ -671,6 +668,7 @@ a{
     background-color: #fff;
     color: #888;
     padding: 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
 }
 
 .bruh-bruh{
@@ -700,11 +698,8 @@ a{
 
 
 .info-shop2{
-    border: 1px solid rgba(0,0,0,.09);
     border-radius: 2px;
-    margin: 23px 20px;
     height: 150px;
-    
 }
 
 .hehe{
@@ -716,8 +711,212 @@ a{
 .main-sp2{
     width: 27%;
     height: 115px;
-    border: 1px solid black;
     margin-right: 10px;
+    display: flex;
+}
+
+.main-sp2 img{
+    height: 90px;
+    width: 88px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.ok{
+    cursor: pointer;
+    color: blue;
+}
+
+.bo-kho{
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 17px;
 }
 
 
+.mua{
+    height: 180px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.05);
+    background: #fff;
+    margin-bottom: 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+
+.topmid{
+    position: sticky;
+    top: 0;
+}
+
+.chat{
+    height: 50px;
+    width: 100px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    cursor: pointer;
+
+}
+
+.chat img{
+    height: 29px;
+    width: 32px;
+    padding: 12px 0 0 7px;
+}
+
+.text-chat{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ee4d2d;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-left: 5px;
+}
+
+.m1{
+    width: 100%;
+    height: 30%;
+ 
+}
+
+.m2{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px dashed rgba(0,0,0,.09);
+    border-top: 1px dashed rgba(0,0,0,.09);
+    align-items: center;
+    display: flex;
+}
+
+.leuleu{
+    width: 56%;
+}
+
+.xu{
+    width: 44%;
+    display: flex;
+    align-items: center;
+}
+
+.xuxu{
+    width: 27px;
+    height: 28px;
+    padding-right: 6px;
+    opacity: .3;
+}
+
+.non{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-right: 180px;
+    opacity: .3;
+}
+
+.money{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.m3{
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    
+}
+
+.null{
+    height: 100%;
+    width: 60%;
+ 
+}
+
+.vou{
+    width: 25%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.m1 img{
+    height: 44px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.ma{
+    width: 15%;
+    font-size: 18px;
+    padding-top: 19px;
+    color: blue;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.pad-20{
+    margin-right: 20px;
+}
+
+.change{
+    color: #252525;
+}
+
+.trash-can{
+    height: 39px;
+    width: 43px;
+    cursor: pointer;
+}
+
+.m3 input{
+    height: 20px;
+    width: 20px;
+    margin: 0 30px 0 20px;
+}
+
+.vivi{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.xixi{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #ee4d2d;
+    max-width: 165px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chiu-thoi{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+
+}
+
+.vkl{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ee4d2d;
+}
+
+.mua-hang{
+    background-color: #ee4d2d;
+    width: 9rem;
+    height: 40px;
+    border: none;
+    color: white;
+    margin: 0 10px 0 30px;
+    cursor: pointer;
+}
