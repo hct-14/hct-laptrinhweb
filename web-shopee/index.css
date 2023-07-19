@@ -1295,6 +1295,10 @@ width: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
 }
+.g8-item a{
+  color:black;
+  text-decoration: none;
+}
 .g8-item:hover{
   transform: scale(1.015);
 }
@@ -1492,14 +1496,11 @@ flex-direction: column;
   height: 5px;
 }
 .footer{
-  background-color: #f5f5f5;
   width: 100%;
-  height: 500px;
-  margin-top:-150px;
 }
 
 .container10{
-
+  margin-top:-50px;
   height: 400px;
   margin-left: 10%;
   margin-right: 10%;
@@ -1507,26 +1508,25 @@ flex-direction: column;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
 }
-.container-item span{
+.container10-item span{
   color: #000000;
   font-size: 18px;
   font-weight: 500;
   }
-.container-item{
-  margin-top: 100px;
+.container1010-item{
   background-color: #f5f5f5;
 
 }
-.container-item ul{
+.container10-item ul{
   margin-top: 15px;
 }
-.container-item li{
+.container10-item li{
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 14px;
   opacity: 0.8;
 }
-.container-item li:hover{
+.container10-item li:hover{
   color: #ee4d2d;
 }
 .thanhtoan-item ul{
@@ -1540,48 +1540,48 @@ flex-direction: column;
   margin-left: 5px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
-.container-item .item-fb{
+.container10-item .item-fb{
   font-size: 20px;
   margin-top: 20px;
 }
-.container-item .item-ins{
+.container10-item .item-ins{
   font-size: 20px;
   margin-top: 20px;
 }
-.container-item .item-link{
+.container10-item .item-link{
   font-size: 20px;
   margin-top: 20px;
 }
-.container-item .fa-facebook{
+.container10-item .fa-facebook{
   margin-right: 10px;
 }
-.container-item .fa-instagram{
+.container10-item .fa-instagram{
   margin-right: 10px;
 }
-.container-item .fa-linkedin{
+.container10-item .fa-linkedin{
   margin-right: 10px;
 }
-.container-item-hct{
+.container10-item-hct{
   height: 200px;
   display: flex;
 }
-.container-item-qr{
+.container10-item-qr{
   flex: 50%;
 }
-.container-item-qr img{
+.container10-item-qr img{
   width: 100px;
 }
-.container-item-3anh{
+.container10-item-3anh{
   flex: 50%;
 }
-.container-item-3anh .anh2{
+.container10-item-3anh .anh2{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   margin-left: 1px;
 }
-.container-item-3anh .anh1{
+.container10-item-3anh .anh1{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.container-item-3anh img{
+.container10-item-3anh img{
   width: 70%;
   margin-top: 10px;
 }
